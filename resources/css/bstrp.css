@@ -1,0 +1,43 @@
+*{
+	user-select: none;
+	text-decoration: none;
+	color: black;
+}
+
+nav.navbar>a>img.img-fluid {
+	max-height: 50px;
+	max-width: 75px;
+	margin: 0;
+}
+
+li.nav-item {
+	height: inherit;
+}
+
+ul.navbar-nav {
+	height: inherit;
+	margin: 0;
+	height: 50px;
+}
+
+li.nav-item>a.nav-link {
+	height: inherit;
+	padding-top: 12px;
+}
+
+a.nav-link:hover{
+	background-color: white;
+}
+
+li.nav-item:first-child{
+	pointer-events: none;
+}
+
+nav.navbar {
+	padding: 0;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+}
