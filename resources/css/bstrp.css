@@ -40,4 +40,15 @@ nav.navbar {
 body {
 	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p.title {
+	color: grey;
+	font-size: 32px;
+	margin: 0;
+}
+
+.title1 {
+	padding-top: 120px;
 }
